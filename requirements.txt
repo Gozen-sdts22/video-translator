@@ -1,0 +1,21 @@
+# Core dependencies for video subtitle generation
+
+# Speech recognition
+faster-whisper>=1.0.0
+
+# Speaker diarization
+pyannote.audio>=3.1.0
+
+# Claude API for translation
+anthropic>=0.18.0
+
+# Audio/video processing (FFmpeg wrapper - optional, main FFmpeg required)
+ffmpeg-python>=0.2.0
+
+# PyTorch (required for Whisper and pyannote)
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
